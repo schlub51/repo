@@ -1,0 +1,13 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionStackView",
+  "tintColor": "#1DB954",
+  "views": [
+    { "class": "DepictionMarkdownView", "markdown": "A legacy Spotify tweak for **iOS 13**, packaged for older jailbroken devices." },
+    { "class": "DepictionHeaderView", "title": "Compatibility" },
+    { "class": "DepictionMarkdownView", "markdown": "iOS 13.x with Spotify 8.8.2 (rootful, arm). Tested on iPhone X." },
+    { "class": "DepictionHeaderView", "title": "Install" },
+    { "class": "DepictionMarkdownView", "markdown": "Install from this repo, then relaunch Spotify." },
+    { "class": "DepictionLabelView", "text": "Legacy archive build maintained by schlub51", "textColor": "#888888", "fontSize": 12 }
+  ]
+}

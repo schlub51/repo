@@ -5,14 +5,18 @@ Maintainer: schlub51
 Installed-Size: 12376
 Depends: gawk, unzip, plutil
 Filename: debs/iparangerplus_2.3.1+plus1_rootful.deb
-Size: 3665064
-MD5sum: dfff7873980cafd2780e4aa7f8c5f66c
-SHA1: d1b33c29fb1183289c79d3d67481d27a23d51ff9
-SHA256: 5c3cb7ce135238ad1a8e02f2b59f5354a6b02e122d1085a9614564c9354b28fe
+Size: 3667720
+MD5sum: 7a253d79a4c8cb1af686eabdeefbc18e
+SHA1: 2a301c40c6169342dced84af41dd2e8874880592
+SHA256: 7372bd1f699eebc41f5a7db4822ece62cabc61aee1d4acf6e48f33c352fe8fc0
 Section: Applications
 Description: Enhanced IPARanger build with extra options. Based on IPARanger by 0xkuj.
 Author: schlub51 (based on IPARanger by 0xkuj)
+Depiction: https://schlub51.github.io/repo/depictions/iparangerplus/depiction.html
+SileoDepiction: https://schlub51.github.io/repo/depictions/iparangerplus/sileo.json
+Icon: https://schlub51.github.io/repo/depictions/iparangerplus/icon.png
 Name: IPARanger++
+Sileodepiction: https://schlub51.github.io/repo/depictions/iparangerplus/sileo.json
 
 Package: com.0xkuj.iparanger
 Version: 2.3.1+plus1
@@ -21,14 +25,18 @@ Maintainer: schlub51
 Installed-Size: 12344
 Depends: gawk, unzip, plutil
 Filename: debs/iparangerplus_2.3.1+plus1_rootless.deb
-Size: 3658024
-MD5sum: 1ed8029229e0674555b3eba60810e6b0
-SHA1: a224b68a07e3a1ce6a484aa73e33afd745c487ed
-SHA256: 9f8652f8621362867a09491c86d23dd788e3c0c1cdc42eaa77b97c65e19c700b
+Size: 3660356
+MD5sum: 22a52ab5a92729cd6be77c6f3b10ee3a
+SHA1: 5d15c90e62f312cd5ee11960d418646f668eb30c
+SHA256: add97aa60f47e007e806c45f626de09a5df6d381dde606d9bdbd51d6ec63c4ef
 Section: Applications
 Description: Enhanced IPARanger build with extra options. Based on IPARanger by 0xkuj.
 Author: schlub51 (based on IPARanger by 0xkuj)
+Depiction: https://schlub51.github.io/repo/depictions/iparangerplus/depiction.html
+SileoDepiction: https://schlub51.github.io/repo/depictions/iparangerplus/sileo.json
+Icon: https://schlub51.github.io/repo/depictions/iparangerplus/icon.png
 Name: IPARanger++
+Sileodepiction: https://schlub51.github.io/repo/depictions/iparangerplus/sileo.json
 
 Package: com.eevee.spotify.legacy
 Version: 0.1.0
@@ -37,14 +45,18 @@ Maintainer: Eevee
 Installed-Size: 92
 Depends: firmware (>= 13.0)
 Filename: debs/com.eevee.spotify.legacy_0.1.0_iphoneos-arm.deb
-Size: 15226
-MD5sum: 6b5555cc7f0acca177b43bfaf6b03749
-SHA1: edf640b134fe1ca71a8fa7282f20bc13b27d4c1d
-SHA256: adacb35b4399cbc912a58f339c58689b467aa13e7ca6794332c3163313aa7e44
+Size: 15420
+MD5sum: 5e93164021a908ce9bb22e989b59615e
+SHA1: d32e4f93b8e16f3f6e5857be48c74173e0b580b9
+SHA256: bbbbce540f7e819972b8b961bec23c02ecd065a0758795bb6c755c3d2506b5df
 Section: Tweaks
 Description: EeveeSpotify port for iOS 13 / Spotify 8.8.2
 Author: Eevee
+Depiction: https://schlub51.github.io/repo/depictions/eeveespotify/depiction.html
+SileoDepiction: https://schlub51.github.io/repo/depictions/eeveespotify/sileo.json
+Icon: https://schlub51.github.io/repo/depictions/eeveespotify/icon.png
 Name: EeveeSpotifyLegacy
+Sileodepiction: https://schlub51.github.io/repo/depictions/eeveespotify/sileo.json
 
 Package: com.schlub51.ipadswitcherrevived
 Version: 1.0.0
@@ -53,12 +65,16 @@ Maintainer: schlub51
 Installed-Size: 368
 Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000)
 Filename: debs/com.schlub51.ipadswitcherrevived_1.0.0_iphoneos-arm64.deb
-Size: 24946
-MD5sum: 38a0066cffb47d3f01c6f057f3b69acc
-SHA1: 73ec6efc7516dc8b87cfab4b04c890ce6808bdd7
-SHA256: 4af559c06de3cee9db32a8bfbd7034c3121fc6835be95a61e55f81f64b9f5573
+Size: 25116
+MD5sum: a28a07f8cbae4173e674b7c2a176f440
+SHA1: ab59d4147de0066b3de0b7807ad60ae20f9f8f0e
+SHA256: a73ad451d6e9fb42a3173902c47dc98f83969138672fec6fbbedfac0f68c1a28
 Section: Tweaks
 Description: iPad-style grid app switcher for iOS 16. Rewrite of iPadSwitcher (concept by mali9510).
 Author: schlub51 (concept by mali9510)
+Depiction: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/depiction.html
+SileoDepiction: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/sileo.json
+Icon: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/icon.png
 Name: iPadSwitcher Revived
+Sileodepiction: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/sileo.json
 

@@ -1,0 +1,19 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionStackView",
+  "tintColor": "#16a34a",
+  "views": [
+    {
+      "class": "DepictionMarkdownView",
+      "markdown": "**IPARanger++** is an enhanced build of IPARanger (a GUI for ipatool) with extra options and tweaks on top of the version by 0xkuj."
+    },
+    { "class": "DepictionHeaderView", "title": "What's different" },
+    {
+      "class": "DepictionMarkdownView",
+      "markdown": "- Extra options in the interface\n- Downloads folder spacing / layout tweaks\n- Various quality-of-life additions"
+    },
+    { "class": "DepictionHeaderView", "title": "Builds" },
+    { "class": "DepictionMarkdownView", "markdown": "- Rootless (Dopamine)\n- Rootful (iOS 13 compatible)" },
+    { "class": "DepictionLabelView", "text": "Based on IPARanger by 0xkuj · Enhanced build by schlub51", "textColor": "#888888", "fontSize": 12 }
+  ]
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 16px; line-height: 1.5; }
+  h2 { font-size: 1.05rem; margin: 20px 0 8px; }
+  p { margin: 8px 0; }
+  .shots { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; -webkit-overflow-scrolling: touch; }
+  .shots img { height: 360px; border-radius: 12px; flex: 0 0 auto; }
+  ul { padding-left: 18px; margin: 8px 0; }
+  li { margin: 4px 0; }
+  .muted { opacity: .65; font-size: .88rem; }
+</style></head><body>
+  <p>An iPad-style grid app switcher for iPhone. The original iPadSwitcher forced the iPad
+  switcher style, which broke on iOS 16. This version instead makes SpringBoard build its
+  <b>own native iPad grid switcher</b>, so it's smooth with no artifacts.</p>
+
+  <h2>Screenshots</h2>
+  <div class="shots">
+    <img src="img/1.png" alt="Switcher">
+    <img src="img/2.png" alt="Settings">
+  </div>
+
+  <h2>Features</h2>
+  <ul>
+    <li>Native iPad-style grid switcher</li>
+    <li>Adjustable card size (Extra Small → Large)</li>
+    <li>Adjustable spacing (portrait &amp; landscape)</li>
+    <li>Adjustable corner radius</li>
+    <li>Settings apply live — no respring for most changes</li>
+  </ul>
+
+  <h2>Compatibility</h2>
+  <p>iOS 16, rootless (tested on 16.5 / Dopamine). Not iOS 15.</p>
+
+  <p class="muted">Based on the original iPadSwitcher by mali9510. iOS 16 rewrite by schlub51.</p>
+</body></html>

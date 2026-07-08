@@ -1,0 +1,28 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionStackView",
+  "tintColor": "#2d6cdf",
+  "views": [
+    {
+      "class": "DepictionMarkdownView",
+      "markdown": "An iPad-style grid app switcher for iPhone. Instead of forcing the iPad switcher style (which broke on iOS 16), it makes SpringBoard build its own native iPad grid switcher — smooth, no artifacts."
+    },
+    {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 12,
+      "itemSize": "{160, 346}",
+      "screenshots": [
+        { "url": "https://schlub51.github.io/repo/depictions/ipadswitcherrevived/img/1.png", "accessibilityText": "Switcher" },
+        { "url": "https://schlub51.github.io/repo/depictions/ipadswitcherrevived/img/2.png", "accessibilityText": "Settings" }
+      ]
+    },
+    { "class": "DepictionHeaderView", "title": "Features" },
+    {
+      "class": "DepictionMarkdownView",
+      "markdown": "- Native iPad-style grid switcher\n- Adjustable card size (Extra Small → Large)\n- Adjustable spacing (portrait & landscape)\n- Adjustable corner radius\n- Settings apply live — no respring for most changes"
+    },
+    { "class": "DepictionHeaderView", "title": "Compatibility" },
+    { "class": "DepictionMarkdownView", "markdown": "iOS 16, rootless (tested on 16.5 / Dopamine). Not iOS 15." },
+    { "class": "DepictionLabelView", "text": "Based on iPadSwitcher by mali9510 · iOS 16 rewrite by schlub51", "textColor": "#888888", "fontSize": 12 }
+  ]
+}
