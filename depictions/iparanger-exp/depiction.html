@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 16px; line-height: 1.5; }
+  h2 { font-size: 1.05rem; margin: 20px 0 8px; }
+  .shots { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 6px; -webkit-overflow-scrolling: touch; }
+  .shots img { height: 360px; border-radius: 12px; flex: 0 0 auto; }
+  ul { padding-left: 18px; margin: 8px 0; }
+  li { margin: 4px 0; }
+  .muted { opacity: .65; font-size: .88rem; }
+</style></head><body>
+  <p>An experimental fork of <b>IPARanger</b> (a GUI for <code>ipatool</code> that downloads
+  IPAs from the App Store). Made for personal use and experimentation — shared as-is, not a
+  replacement for the original.</p>
+
+  <h2>Screenshots</h2>
+  <div class="shots">
+    <img src="img/search-download-action.png" alt="Search &amp; download">
+    <img src="img/version-picker.png" alt="Version picker">
+    <img src="img/download-progress-banner.png" alt="Download banner">
+    <img src="img/downloads-account-metadata.png" alt="Downloads metadata">
+    <img src="img/accounts-switcher.png" alt="Account switcher">
+  </div>
+
+  <h2>What this fork adds</h2>
+  <ul>
+    <li>Multi-account support, with an isolated <code>ipatool</code> keychain per account (no login/token conflicts)</li>
+    <li>Version selection before downloading, with release dates in the picker</li>
+    <li>Fallback to the latest version when history isn't available</li>
+    <li>Minimum-iOS and account attribution metadata on downloaded IPAs</li>
+    <li>Non-blocking in-app download banner</li>
+    <li>Login-screen shortcut to the downloads folder even when Apple ID auth is broken</li>
+    <li>Patched embedded <code>ipatool</code> to reduce recurring auth / JSON errors</li>
+  </ul>
+
+  <h2>Compatibility</h2>
+  <p>Tested on rootless (Dopamine, iOS 16.4) and limited rootful (iOS 13.5). Experimental —
+  rough edges expected on other setups. Pick the build matching your jailbreak.</p>
+
+  <p class="muted">Fork of IPARanger by 0xkuj · ipatool by majd · changes by schlub51. MIT.</p>
+</body></html>

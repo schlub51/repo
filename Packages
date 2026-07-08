@@ -1,42 +1,42 @@
 Package: com.0xkuj.iparanger
-Version: 2.3.1+plus1
+Version: 2.3.0+exp1
 Architecture: iphoneos-arm
 Maintainer: schlub51
 Installed-Size: 12376
 Depends: gawk, unzip, plutil
-Filename: debs/iparangerplus_2.3.1+plus1_rootful.deb
-Size: 3667720
-MD5sum: 7a253d79a4c8cb1af686eabdeefbc18e
-SHA1: 2a301c40c6169342dced84af41dd2e8874880592
-SHA256: 7372bd1f699eebc41f5a7db4822ece62cabc61aee1d4acf6e48f33c352fe8fc0
+Filename: debs/iparanger-exp_2.3.0+exp1_rootful.deb
+Size: 3667012
+MD5sum: 2a8154e7f7617cee67712c84311066ba
+SHA1: 152eca5fc448769e1099e327911eecaa670cd1bb
+SHA256: 3ccfcb9bd0d083f61f46fd9045f8bb0319d59bb538f41aedb106f0c9903584b6
 Section: Applications
-Description: Enhanced IPARanger build with extra options. Based on IPARanger by 0xkuj.
-Author: schlub51 (based on IPARanger by 0xkuj)
-Depiction: https://schlub51.github.io/repo/depictions/iparangerplus/depiction.html
-SileoDepiction: https://schlub51.github.io/repo/depictions/iparangerplus/sileo.json
-Icon: https://schlub51.github.io/repo/depictions/iparangerplus/icon.png
-Name: IPARanger++
-Sileodepiction: https://schlub51.github.io/repo/depictions/iparangerplus/sileo.json
+Description: Experimental IPARanger fork: multi-account support, version selection, and quality-of-life tweaks. Based on 0xkuj/IPARanger.
+Author: schlub51 (experimental fork of IPARanger by 0xkuj)
+Depiction: https://schlub51.github.io/repo/depictions/iparanger-exp/depiction.html
+SileoDepiction: https://schlub51.github.io/repo/depictions/iparanger-exp/sileo.json
+Icon: https://schlub51.github.io/repo/depictions/iparanger-exp/icon.png
+Name: IPARanger (Experimental)
+Sileodepiction: https://schlub51.github.io/repo/depictions/iparanger-exp/sileo.json
 
 Package: com.0xkuj.iparanger
-Version: 2.3.1+plus1
+Version: 2.3.0+exp1
 Architecture: iphoneos-arm64
 Maintainer: schlub51
 Installed-Size: 12344
 Depends: gawk, unzip, plutil
-Filename: debs/iparangerplus_2.3.1+plus1_rootless.deb
-Size: 3660356
-MD5sum: 22a52ab5a92729cd6be77c6f3b10ee3a
-SHA1: 5d15c90e62f312cd5ee11960d418646f668eb30c
-SHA256: add97aa60f47e007e806c45f626de09a5df6d381dde606d9bdbd51d6ec63c4ef
+Filename: debs/iparanger-exp_2.3.0+exp1_rootless.deb
+Size: 3657584
+MD5sum: 1201d9cf60ca5dcb0473cc64563b526e
+SHA1: 5c4404e8fd520ed728900fb41c1f677140e9c715
+SHA256: 05cbdd66fc139292aa58f017487d073ebf31747ef038cc76893de9c9591f6cc2
 Section: Applications
-Description: Enhanced IPARanger build with extra options. Based on IPARanger by 0xkuj.
-Author: schlub51 (based on IPARanger by 0xkuj)
-Depiction: https://schlub51.github.io/repo/depictions/iparangerplus/depiction.html
-SileoDepiction: https://schlub51.github.io/repo/depictions/iparangerplus/sileo.json
-Icon: https://schlub51.github.io/repo/depictions/iparangerplus/icon.png
-Name: IPARanger++
-Sileodepiction: https://schlub51.github.io/repo/depictions/iparangerplus/sileo.json
+Description: Experimental IPARanger fork: multi-account support, version selection, and quality-of-life tweaks. Based on 0xkuj/IPARanger.
+Author: schlub51 (experimental fork of IPARanger by 0xkuj)
+Depiction: https://schlub51.github.io/repo/depictions/iparanger-exp/depiction.html
+SileoDepiction: https://schlub51.github.io/repo/depictions/iparanger-exp/sileo.json
+Icon: https://schlub51.github.io/repo/depictions/iparanger-exp/icon.png
+Name: IPARanger (Experimental)
+Sileodepiction: https://schlub51.github.io/repo/depictions/iparanger-exp/sileo.json
 
 Package: com.eevee.spotify.legacy
 Version: 0.1.0

@@ -1,0 +1,31 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionStackView",
+  "tintColor": "#16a34a",
+  "views": [
+    {
+      "class": "DepictionMarkdownView",
+      "markdown": "An experimental fork of **IPARanger** (a GUI for `ipatool` that downloads IPAs from the App Store). Made for personal use and experimentation — shared as-is, not a replacement for the original."
+    },
+    {
+      "class": "DepictionScreenshotsView",
+      "itemCornerRadius": 12,
+      "itemSize": "{160, 346}",
+      "screenshots": [
+        { "url": "https://schlub51.github.io/repo/depictions/iparanger-exp/img/search-download-action.png", "accessibilityText": "Search & download" },
+        { "url": "https://schlub51.github.io/repo/depictions/iparanger-exp/img/version-picker.png", "accessibilityText": "Version picker" },
+        { "url": "https://schlub51.github.io/repo/depictions/iparanger-exp/img/download-progress-banner.png", "accessibilityText": "Download banner" },
+        { "url": "https://schlub51.github.io/repo/depictions/iparanger-exp/img/downloads-account-metadata.png", "accessibilityText": "Downloads metadata" },
+        { "url": "https://schlub51.github.io/repo/depictions/iparanger-exp/img/accounts-switcher.png", "accessibilityText": "Account switcher" }
+      ]
+    },
+    { "class": "DepictionHeaderView", "title": "What this fork adds" },
+    {
+      "class": "DepictionMarkdownView",
+      "markdown": "- Multi-account support, isolated `ipatool` keychain per account\n- Version selection before download, with release dates\n- Fallback to latest when history isn't available\n- Minimum-iOS and account attribution metadata on downloaded IPAs\n- Non-blocking in-app download banner\n- Login-screen shortcut to the downloads folder even when auth is broken\n- Patched embedded `ipatool` to reduce recurring auth / JSON errors"
+    },
+    { "class": "DepictionHeaderView", "title": "Compatibility" },
+    { "class": "DepictionMarkdownView", "markdown": "Tested on rootless (Dopamine, iOS 16.4) and limited rootful (iOS 13.5). Experimental — rough edges expected. Pick the build matching your jailbreak." },
+    { "class": "DepictionLabelView", "text": "Fork of IPARanger by 0xkuj · ipatool by majd · changes by schlub51 · MIT", "textColor": "#888888", "fontSize": 12 }
+  ]
+}
