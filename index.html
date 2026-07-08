@@ -9,8 +9,14 @@
   body { font-family: -apple-system, system-ui, sans-serif; max-width: 640px; margin: 0 auto; padding: 32px 20px; line-height: 1.5; }
   h1 { display: flex; align-items: center; gap: 12px; font-size: 1.6rem; }
   h1 img { width: 44px; height: 44px; border-radius: 10px; }
-  .add { display: inline-block; background: #2d6cdf; color: #fff; text-decoration: none; padding: 10px 18px; border-radius: 10px; font-weight: 600; margin: 8px 0 24px; }
-  code { background: rgba(128,128,128,.18); padding: 2px 6px; border-radius: 5px; font-size: .9em; }
+  h2 { font-size: 1.1rem; margin-top: 28px; }
+  .buttons { display: flex; flex-wrap: wrap; gap: 10px; margin: 16px 0 8px; }
+  .buttons a { flex: 1 1 45%; text-align: center; text-decoration: none; padding: 11px 14px; border-radius: 10px; font-weight: 600; color: #fff; }
+  .sileo { background: #2d6cdf; }
+  .zebra { background: #e0592a; }
+  .installer { background: #16a34a; }
+  .cydia { background: #7c3aed; }
+  code { background: rgba(128,128,128,.18); padding: 2px 6px; border-radius: 5px; font-size: .9em; word-break: break-all; }
   ul { list-style: none; padding: 0; }
   li { border: 1px solid rgba(128,128,128,.25); border-radius: 10px; padding: 12px 14px; margin-bottom: 10px; }
   .pkg { font-weight: 600; }
@@ -19,8 +25,15 @@
 </head>
 <body>
   <h1><img src="CydiaIcon.png" alt=""> schlub51 repo</h1>
-  <a class="add" href="sileo://source/https://schlub51.github.io/repo/">Add to Sileo</a>
-  <p>Or add this URL manually in Sileo / Zebra:<br><code>https://schlub51.github.io/repo/</code></p>
+
+  <div class="buttons">
+    <a class="sileo" href="sileo://source/https://schlub51.github.io/repo/">Add to Sileo</a>
+    <a class="zebra" href="zbra://sources/add/https://schlub51.github.io/repo/">Add to Zebra</a>
+    <a class="installer" href="installer://add/repo=https://schlub51.github.io/repo/">Add to Installer</a>
+    <a class="cydia" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://schlub51.github.io/repo/">Add to Cydia</a>
+  </div>
+  <p>Or add this URL manually:<br><code>https://schlub51.github.io/repo/</code></p>
+
   <h2>Packages</h2>
   <ul>
     <li><span class="pkg">iPadSwitcher Revived</span><br><span class="meta">iPad-style grid app switcher — iOS 16, rootless</span></li>
