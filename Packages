@@ -1,0 +1,64 @@
+Package: com.0xkuj.iparanger
+Version: 2.3.1+plus1
+Architecture: iphoneos-arm
+Maintainer: schlub51
+Installed-Size: 12376
+Depends: gawk, unzip, plutil
+Filename: debs/iparangerplus_2.3.1+plus1_rootful.deb
+Size: 3665064
+MD5sum: dfff7873980cafd2780e4aa7f8c5f66c
+SHA1: d1b33c29fb1183289c79d3d67481d27a23d51ff9
+SHA256: 5c3cb7ce135238ad1a8e02f2b59f5354a6b02e122d1085a9614564c9354b28fe
+Section: Applications
+Description: Enhanced IPARanger build with extra options. Based on IPARanger by 0xkuj.
+Author: schlub51 (based on IPARanger by 0xkuj)
+Name: IPARanger++
+
+Package: com.0xkuj.iparanger
+Version: 2.3.1+plus1
+Architecture: iphoneos-arm64
+Maintainer: schlub51
+Installed-Size: 12344
+Depends: gawk, unzip, plutil
+Filename: debs/iparangerplus_2.3.1+plus1_rootless.deb
+Size: 3658024
+MD5sum: 1ed8029229e0674555b3eba60810e6b0
+SHA1: a224b68a07e3a1ce6a484aa73e33afd745c487ed
+SHA256: 9f8652f8621362867a09491c86d23dd788e3c0c1cdc42eaa77b97c65e19c700b
+Section: Applications
+Description: Enhanced IPARanger build with extra options. Based on IPARanger by 0xkuj.
+Author: schlub51 (based on IPARanger by 0xkuj)
+Name: IPARanger++
+
+Package: com.eevee.spotify.legacy
+Version: 0.1.0
+Architecture: iphoneos-arm
+Maintainer: Eevee
+Installed-Size: 92
+Depends: firmware (>= 13.0)
+Filename: debs/com.eevee.spotify.legacy_0.1.0_iphoneos-arm.deb
+Size: 15226
+MD5sum: 6b5555cc7f0acca177b43bfaf6b03749
+SHA1: edf640b134fe1ca71a8fa7282f20bc13b27d4c1d
+SHA256: adacb35b4399cbc912a58f339c58689b467aa13e7ca6794332c3163313aa7e44
+Section: Tweaks
+Description: EeveeSpotify port for iOS 13 / Spotify 8.8.2
+Author: Eevee
+Name: EeveeSpotifyLegacy
+
+Package: com.schlub51.ipadswitcherrevived
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: schlub51
+Installed-Size: 368
+Depends: firmware (>= 16.0), mobilesubstrate (>= 0.9.5000)
+Filename: debs/com.schlub51.ipadswitcherrevived_1.0.0_iphoneos-arm64.deb
+Size: 24946
+MD5sum: 38a0066cffb47d3f01c6f057f3b69acc
+SHA1: 73ec6efc7516dc8b87cfab4b04c890ce6808bdd7
+SHA256: 4af559c06de3cee9db32a8bfbd7034c3121fc6835be95a61e55f81f64b9f5573
+Section: Tweaks
+Description: iPad-style grid app switcher for iOS 16. Rewrite of iPadSwitcher (concept by mali9510).
+Author: schlub51 (concept by mali9510)
+Name: iPadSwitcher Revived
+
