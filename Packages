@@ -13,7 +13,6 @@ Section: Applications
 Description: Experimental IPARanger fork: multi-account support, version selection, and quality-of-life tweaks. Based on 0xkuj/IPARanger.
 Author: schlub51 (experimental fork of IPARanger by 0xkuj)
 Depiction: https://schlub51.github.io/repo/depictions/iparanger-exp/depiction.html
-SileoDepiction: https://schlub51.github.io/repo/depictions/iparanger-exp/sileo.json
 Icon: https://schlub51.github.io/repo/depictions/iparanger-exp/icon.png
 Name: IPARanger (Experimental)
 Sileodepiction: https://schlub51.github.io/repo/depictions/iparanger-exp/sileo.json
@@ -33,7 +32,6 @@ Section: Applications
 Description: Experimental IPARanger fork: multi-account support, version selection, and quality-of-life tweaks. Based on 0xkuj/IPARanger.
 Author: schlub51 (experimental fork of IPARanger by 0xkuj)
 Depiction: https://schlub51.github.io/repo/depictions/iparanger-exp/depiction.html
-SileoDepiction: https://schlub51.github.io/repo/depictions/iparanger-exp/sileo.json
 Icon: https://schlub51.github.io/repo/depictions/iparanger-exp/icon.png
 Name: IPARanger (Experimental)
 Sileodepiction: https://schlub51.github.io/repo/depictions/iparanger-exp/sileo.json
@@ -53,7 +51,6 @@ Section: Tweaks
 Description: EeveeSpotify port for iOS 13 / Spotify 8.8.2
 Author: Eevee
 Depiction: https://schlub51.github.io/repo/depictions/eeveespotify/depiction.html
-SileoDepiction: https://schlub51.github.io/repo/depictions/eeveespotify/sileo.json
 Icon: https://schlub51.github.io/repo/depictions/eeveespotify/icon.png
 Name: EeveeSpotifyLegacy
 Sileodepiction: https://schlub51.github.io/repo/depictions/eeveespotify/sileo.json
@@ -73,8 +70,26 @@ Section: Tweaks
 Description: iPad-style grid app switcher for iOS 16. Rewrite of iPadSwitcher (concept by mali9510).
 Author: schlub51 (concept by mali9510)
 Depiction: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/depiction.html
-SileoDepiction: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/sileo.json
 Icon: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/icon.png
 Name: iPadSwitcher Revived
 Sileodepiction: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/sileo.json
+
+Package: com.schlub51.textmenuplus
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: schlub51
+Installed-Size: 292
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/com.schlub51.textmenuplus_1.0.0_iphoneos-arm64.deb
+Size: 34024
+MD5sum: e3033ee5aa6b681ec52822e014420abf
+SHA1: addb5be6640a8515e0d737406a4b175eb4736757
+SHA256: 266c900b52208865876c8ea23d7acf407d9c479966e861ecb48bf254361ffc18
+Section: Tweaks
+Description: Compact vertical edit menu for iOS 16 rootless.
+Author: schlub51
+Depiction: https://schlub51.github.io/repo/depictions/textmenuplus/depiction.html
+Icon: https://schlub51.github.io/repo/depictions/textmenuplus/icon.png
+Name: TextMenuPlus
+Sileodepiction: https://schlub51.github.io/repo/depictions/textmenuplus/sileo.json
 
