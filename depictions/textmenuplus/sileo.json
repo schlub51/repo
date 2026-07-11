@@ -1,29 +1,60 @@
 {
-  "minVersion": "0.1",
-  "class": "DepictionStackView",
-  "tintColor": "#f2b900",
-  "views": [
+ "minVersion": "0.1",
+ "class": "DepictionStackView",
+ "tintColor": "#f2b900",
+ "views": [
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "Compact vertical edit menu for iOS 16 rootless jailbreaks. Inspired by FancySelection by MiRO92."
+  },
+  {
+   "class": "DepictionScreenshotsView",
+   "itemCornerRadius": 12,
+   "itemSize": "{160, 322}",
+   "screenshots": [
     {
-      "class": "DepictionMarkdownView",
-      "markdown": "Compact vertical edit menu for iOS 16 rootless jailbreaks. Inspired by FancySelection by MiRO92."
+     "url": "https://schlub51.github.io/repo/depictions/textmenuplus/img/1.jpg",
+     "accessibilityText": "Edit menu"
     },
     {
-      "class": "DepictionScreenshotsView",
-      "itemCornerRadius": 12,
-      "itemSize": "{160, 322}",
-      "screenshots": [
-        { "url": "https://schlub51.github.io/repo/depictions/textmenuplus/img/1.jpg", "accessibilityText": "Edit menu" },
-        { "url": "https://schlub51.github.io/repo/depictions/textmenuplus/img/2.jpg", "accessibilityText": "Main menu" },
-        { "url": "https://schlub51.github.io/repo/depictions/textmenuplus/img/3.jpg", "accessibilityText": "Format menu" }
-      ]
+     "url": "https://schlub51.github.io/repo/depictions/textmenuplus/img/2.jpg",
+     "accessibilityText": "Main menu"
     },
-    { "class": "DepictionHeaderView", "title": "Features" },
     {
-      "class": "DepictionMarkdownView",
-      "markdown": "- Vertical, scrollable iOS edit menu\n- Icons for common actions\n- Text Case and Format menus"
-    },
-    { "class": "DepictionHeaderView", "title": "Compatibility" },
-    { "class": "DepictionMarkdownView", "markdown": "Tested on iOS 16.4.1." },
-    { "class": "DepictionLabelView", "text": "TextMenuPlus by schlub51", "textColor": "#888888", "fontSize": 12 }
-  ]
+     "url": "https://schlub51.github.io/repo/depictions/textmenuplus/img/3.jpg",
+     "accessibilityText": "Format menu"
+    }
+   ]
+  },
+  {
+   "class": "DepictionHeaderView",
+   "title": "Features"
+  },
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "- Vertical, scrollable iOS edit menu\n- Icons for common actions\n- Text Case and Format menus\n- Text Style menu: unicode fonts (bold, italic, serif, script, gothic, hollow, circled) that work even where apps have no real formatting"
+  },
+  {
+   "class": "DepictionHeaderView",
+   "title": "Changelog"
+  },
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "**1.1.0**\n- Menu opens much faster — it was doing way too much redundant work behind the scenes\n- New Text Style menu with unicode fonts; hidden where the app already offers native bold/italic (no duplicates in Notes)\n- Plain now resets any unicode style, from the Text Case menu\n- Fixed: text transforms no longer wipe native bold/italic/underline\n- Fixed: changing case could produce weird lookalike characters\n- Fixed: icons could disappear when scrolling the menu\n\n**1.0.0**\n- Initial release"
+  },
+  {
+   "class": "DepictionHeaderView",
+   "title": "Compatibility"
+  },
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "Tested on iOS 16.4.1."
+  },
+  {
+   "class": "DepictionLabelView",
+   "text": "TextMenuPlus by schlub51",
+   "textColor": "#888888",
+   "fontSize": 12
+  }
+ ]
 }

@@ -93,3 +93,22 @@ Icon: https://schlub51.github.io/repo/depictions/textmenuplus/icon.png
 Name: TextMenuPlus
 Sileodepiction: https://schlub51.github.io/repo/depictions/textmenuplus/sileo.json
 
+Package: com.schlub51.textmenuplus
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: schlub51
+Installed-Size: 292
+Depends: firmware (>= 16.0), mobilesubstrate
+Filename: debs/com.schlub51.textmenuplus_1.1.0_iphoneos-arm64.deb
+Size: 32948
+MD5sum: 6df392a66813cee2d80108778861c6e5
+SHA1: cf39f5d7b04d23af1bb14d49544e766c9cb9e05f
+SHA256: 1f276a78e0ab1998da22fb12f492b038da789e54b18f13f3796b7fcc24109a30
+Section: Tweaks
+Description: Compact vertical edit menu for iOS 16 rootless.
+Author: schlub51
+Depiction: https://schlub51.github.io/repo/depictions/textmenuplus/depiction.html
+Icon: https://schlub51.github.io/repo/depictions/textmenuplus/icon.png
+Name: TextMenuPlus
+Sileodepiction: https://schlub51.github.io/repo/depictions/textmenuplus/sileo.json
+
