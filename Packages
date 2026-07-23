@@ -55,6 +55,24 @@ Icon: https://schlub51.github.io/repo/depictions/eeveespotify/icon.png
 Name: EeveeSpotifyLegacy
 Sileodepiction: https://schlub51.github.io/repo/depictions/eeveespotify/sileo.json
 
+Package: com.schlub51.audiosnapshotserver2
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: schlub51
+Installed-Size: 200
+Depends: mobilesubstrate
+Conflicts: com.ryannair05.audiosnapshotserver2
+Replaces: com.ryannair05.audiosnapshotserver2
+Filename: debs/com.schlub51.audiosnapshotserver2_1.1.0_iphoneos-arm64.deb
+Size: 4814
+MD5sum: 8552de12ae246aa2821970412bb735b9
+SHA1: a6840226d9bb73beb3fce550a664923ecd3ece38
+SHA256: 80174ff3ab5543c1b71dae0a2949d69ef10e0a791795ec02265741d4fa1721b3
+Section: Development
+Description: mediaserverd audio-buffer server (multicast + Spotify loopback) for Mitsuha Six and a Half
+Author: Ryan Nair
+Name: AudioSnapshotServer 2 (Mitsuha Six and a Half)
+
 Package: com.schlub51.ipadswitcherrevived
 Version: 1.0.0
 Architecture: iphoneos-arm64
@@ -73,6 +91,45 @@ Depiction: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/depict
 Icon: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/icon.png
 Name: iPadSwitcher Revived
 Sileodepiction: https://schlub51.github.io/repo/depictions/ipadswitcherrevived/sileo.json
+
+Package: com.schlub51.libmitsuha65
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: schlub51
+Installed-Size: 448
+Depends: com.schlub51.audiosnapshotserver2
+Conflicts: com.ryannair05.libmitsuha6
+Replaces: com.ryannair05.libmitsuha6
+Filename: debs/com.schlub51.libmitsuha65_1.1.0_iphoneos-arm64.deb
+Size: 70610
+MD5sum: af7dd2901813a0a8ff61731cf3bcb559
+SHA1: 348ef161ed810a04997fa593b6d13e95ff776e3a
+SHA256: 2bf8378b8ac5e2c68dfc58c5e0c8e23069be03d05dced8f11a7f9c87575d9dee
+Section: Development
+Description: An advanced audio visualizer library for Mitsuha Six and a Half
+Author: Ryan Nair
+Name: libmitsuha65
+
+Package: com.schlub51.mitsuha65
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: schlub51
+Installed-Size: 2224
+Depends: mobilesubstrate, preferenceloader, com.schlub51.libmitsuha65, com.schlub51.audiosnapshotserver2, ws.hbang.alderis, firmware (>=15.0)
+Conflicts: com.ryannair05.mitsuha6
+Replaces: io.c0ldra1n.mitsuha, io.ominousness.mitsuhaxi, me.nepeta.mitsuhainfinity, com.ryannair05.mitsuhaforever, com.ryannair05.mitsuha6
+Filename: debs/com.schlub51.mitsuha65_1.1.0_iphoneos-arm64.deb
+Size: 1333720
+MD5sum: 52396b44b540f34234d80118500ec54b
+SHA1: 704608265c752d9942503f1e1114dd3d23540713
+SHA256: 7bb08c9face7df4c11d7ee1e6f858ed6f34d7413a9cc3b155daafb8a0a662c96
+Section: Tweaks
+Description: Audio-reactive wave for Spotify, Apple Music, Lock Screen, Home Screen, and Jade Control Center.
+Author: Ryan Nair
+Name: Mitsuha Six and a Half
+Depiction: https://schlub51.github.io/repo/depictions/mitsuha65/depiction.html
+Icon: https://schlub51.github.io/repo/depictions/mitsuha65/icon.png
+Sileodepiction: https://schlub51.github.io/repo/depictions/mitsuha65/sileo.json
 
 Package: com.schlub51.textmenuplus
 Version: 1.0.0

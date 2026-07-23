@@ -1,0 +1,74 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionStackView",
+ "tintColor": "#b83280",
+ "views": [
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "An audio-reactive wave for Spotify, Apple Music, the Lock Screen, Home Screen, Lock Screen media controls, and the Jade Control Center media module.\n\nMitsuha Six and a Half is a repair fork of Mitsuha Six, focused on iOS 16/rootless reliability and cleaner Spotify colors."
+  },
+  {
+   "class": "DepictionScreenshotsView",
+   "itemCornerRadius": 12,
+   "itemSize": "{149, 322}",
+   "screenshots": [
+    {
+     "url": "https://schlub51.github.io/repo/depictions/mitsuha65/img/spotify.jpg",
+     "accessibilityText": "Spotify wave"
+    },
+    {
+     "url": "https://schlub51.github.io/repo/depictions/mitsuha65/img/lockscreen.jpg",
+     "accessibilityText": "Lock Screen wave"
+    },
+    {
+     "url": "https://schlub51.github.io/repo/depictions/mitsuha65/img/control-center.jpg",
+     "accessibilityText": "Control Center wave"
+    },
+    {
+     "url": "https://schlub51.github.io/repo/depictions/mitsuha65/img/settings.jpg",
+     "accessibilityText": "Settings"
+    }
+   ]
+  },
+  {
+   "class": "DepictionHeaderView",
+   "title": "What's New"
+  },
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "- Spotify in-app wave on the current Now Playing screen\n- App Store Spotify audio through a loopback path\n- Dynamic+ mode using Spotify's own ambience color for a punchier, more native-looking wave\n- Spotify Gradient Fill, so the filled wave fades into the player instead of showing a hard edge while scrolling\n- Apple Music Dynamic color fixes\n- Lock Screen, Home Screen, media card, and Jade Control Center cleanup"
+  },
+  {
+   "class": "DepictionHeaderView",
+   "title": "Known Issues"
+  },
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "- Spotify Canvas covers the in-app wave\n- Spotify in-app and Dynamic+ depend on Spotify internals, so a future Spotify update may require a tweak update\n- Lock Screen media controls / artwork tap can still be intermittent when Lock Screen Background is active\n- Other iOS/rootless combinations are untested"
+  },
+  {
+   "class": "DepictionHeaderView",
+   "title": "Compatibility"
+  },
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "Tested on iOS 16.4.1 rootless with Dopamine. iOS 15 and iOS 17 are untested."
+  },
+  {
+   "class": "DepictionHeaderView",
+   "title": "Dependencies"
+  },
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "Installs libmitsuha65 and AudioSnapshotServer 2 automatically."
+  },
+  {
+   "class": "DepictionHeaderView",
+   "title": "Credits"
+  },
+  {
+   "class": "DepictionMarkdownView",
+   "markdown": "Based on Mitsuha Six by Ryan Nair, descended from Mitsuha by c0ldra1n, MitsuhaXI / Infinity by Nepeta, and Mitsuha Forever by ConorTheDev. Visualizer engine by Andy Shin and Nepeta. Siri styles and coloring by biD3V. Six and a Half by schlub51.\n\nMIT. Community build made with AI-assisted coding and device testing.\n\nSource: https://github.com/schlub51/MitsuhaSixAndAHalf"
+  }
+ ]
+}
